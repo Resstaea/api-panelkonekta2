@@ -2,7 +2,7 @@ import os, requests
 from flask import Flask, jsonify
 
 app = Flask(__name__)
-API_URL = "http://51.77.216.195/crapi/konek/viewstats"
+API_URL = "http://51.77.216.195/crapi/mait/viewstats"
 API_KEY = os.getenv("API_TOKEN")
 
 @app.route("/")
